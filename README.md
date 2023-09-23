@@ -22,11 +22,11 @@ Hay 4 productos cargados en SQlite a modo de base de datos, pudiendo acceder des
 
 6 - Devuelve Json con datos de sesión, 
 
-7 - Para hacer petición GET de Products, se debe copiar el Bearer token otorgado por el inicio de sesion y pegarlo dentro de la consulta GET en 'Authorization' Type 'Bearer token'
+7 - Para hacer petición GET de Products, se debe copiar el Bearer token otorgado por el inicio de sesion y pegarlo dentro de postman en la consulta GET solapa 'Authorization' Type 'Bearer token'
 
 8 - Ejecutar deslogueo, lo cual tambien eliminada el token de acceso, por lo tanto deberá generarse nuevamente con 'login' para reiterar.
 
-9 - Adicionalmente se puede agregar otro user, mediante el endpoint 'register' y ralizar las pruebas con el nuevo usuario creado.
+9 - Adicionalmente se puede agregar otro user, mediante el endpoint 'register', enviar peticion POST desde postman, repetir los pasos anteriores para loguearse con el user nuevo y realizar las pruebas.
 
 
 ## Endpoints disponibles:
